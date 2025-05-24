@@ -101,6 +101,16 @@ header h1 {
     animation: fadeInUp 0.8s ease-out;
     letter-spacing: 0.5px;
 }
+.theme-text-nil{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #ffffff, #e2e8f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.8s ease-out;
+    letter-spacing: 0.5px;
+}
 
 .theme-text::before {
     content: '•';
